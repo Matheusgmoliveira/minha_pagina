@@ -3,38 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header,
-section h2,section h3,section p,
-form button{
+section h2,
+section h3,form button{
     font-family: 'Bungee', sans-serif;
-        font-weight: normal;
+        font-weight: normal
 }
 
-body, input, textarea{
+body,
+input,
+textarea {
     font-family: 'Roboto', sans-serif;
 }
 
 header{
     padding: 16px 0;
-    background-color: rgb(3, 158, 230);
-    color: #fff;
+    background-color:rgb(28, 167, 242) ;
+    color:#ecf0f1;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    color: #ecf0f1;
     font-size: 18px;
 }
 
-header nav li a {
-
-    color: #ecf0f1;
+header nav li a{
     text-decoration: none;
+    color: #ecf0f1;
 }
 
-.container {
+.container{
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
@@ -50,75 +49,76 @@ section .container{
 section .container{
     align-items: flex-start;
 }
+section{
+    color:rgb(28, 167, 242) ;
 
-section {
+}
+section{
     padding: 24px 0;
 }
 
-section h2 {
+section h2{
     margin-bottom: 16px;
-
 }
 
-section {
-    color: rgb(3, 158, 230);
-    ;
+section p{
+    margin-bottom: 8px;
 }
 
-section p {
-    margin-bottom: 16px;
-    color: rgb(55, 55, 55);
+.my-avatar{
+    max-width: 720px;
+    width: 100%;
+    margin-right: 32px;
 }
 
-.my-avatar {
-    margin-bottom: 16px;
-    margin-right: 120px;
+.container h2{
+    color:rgb(28, 167, 242) ;
 }
 
-.social-links img {
-    height: 24px;
+.social-links img{
+    width: 24px;
 }
 
-.social-links li {
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
-}
-
-#contact .container {
+#contact .container{
     display: block;
 }
 
-.contact-methods {
+.contact-methods{
     display: flex;
     justify-content: space-between;
 }
-
+.contact-methods .acompanhar{
+    margin-right: 480px;
+}
 form input,
 form textarea,
-form button {
+form button{
     display: block;
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
 }
 
-form textarea {
+form textarea{
     resize: none;
-    height: 180px;
 }
 
-section h3 {
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+    padding-left: 10px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+section h3{
     margin-bottom: 16px;
-    font-size: 24px;
 }
 
 form button {
     background-color: rgb(3, 158, 230);
-    color: rgb(55, 55, 55);
+    color: white;
     border: none;
     cursor: pointer;
 }
@@ -134,10 +134,10 @@ textarea:focus {
 
 footer {
     background-color: rgb(3, 158, 230);
-    color: rgb(55, 55, 55);
-    padding: 16px 0
+    color: white;
+    padding: 16px 0;
 }
 
-#contact{
-        margin-left: 120px;
+#contact {
+    margin-left: 120px;
 }

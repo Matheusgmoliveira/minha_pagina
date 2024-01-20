@@ -4,72 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina Pessoal</title>
     <link rel="stylesheet" href="/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
-    <title>Minha Pagina Pessoal</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>Minha Pagina Pessoal</h1>
+            <h1>Minha pagina Pessoal</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <section id="about">
         <div class="container">
-            <img src="imagens/Avatar-Maker.png" alt="Avatar" class="my-avatar">
+            <img class="my-avatar" src="/imagens/Avatar-Maker.png" alt="avatar">
             <div>
-                <h3 class="sobre">Sobre mim</h3>
-                <h2>Nome</h2>
-                <p>Matheus Gonçalves Mariotti de Oliveira</p>
-                <h2>Idade</h2>
-                <p>24 anos</p>
-                <h2>Estado Civil</h2>
-                <p>Casado</p>
-                <h2>Hobby</h2>
-                <p>Tocar Guitarra</p>
-                <h2>Curiosidade</h2>
-                <p>Sou muito bom em teoria musical</p>
+                <h2>Sobre Mim</h2>
+                <h2>Nome: Matheus Gonçalves</h2>
+                <h2>Idade: 22 anos</h2>
+                <h2>Estado Civil: Casado</h2>
+                <h2>Hobby: Tocar Guitarra</h2>
             </div>
         </div>
     </section>
     <section id="contact">
-        <h2>Contato</h2>
-        <div class="contact-methods">
-            <div>
-                <h3>Deixe eu te conhecer melhor</h3>
-                <form>
-                    <input type="text" placeholder="Seu nome" required>
-                    <input type="email" placeholder="Seu e-mail" required>
-                    <input type="tel" placeholder="Seu telefone (opcional)">
-                    <textarea placeholder="Sua mensagem"></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
                 <div>
-                    <h3>Me acompanhe</h3>
+                    <h3>Fale comigo</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome">
+                        <input type="email" placeholder="Seu email">
+                        <input type="tel" placeholder="Seu telefone(opcional)">
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="acompanhar">
+                    <h3>Nos Acompanhe</h3>
                     <ul class="social-links">
-                        <li>
-                            <a href="#" title="Siga-me no Facebook">
-                                <img src="imagens/facebook.png" alt="Logo do Facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Siga-me no instagram">
-                                <img src="imagens/instagram.png" alt="Logo do Instagram">
-                            </a>
-                        </li>
+                        <li><a href="#" title="Siga-me no Facebok">
+                                <img src="/imagens/facebook.png" alt="Icone Facebok">
+                            </a></li>
+                        <li><a href="#" title="Siga-me no Instagram">
+                                <img src="/imagens/instagram.png" alt="Icone Instagram">
+                            </a></li>
+                        <li><a href="#" title="Entre em contato no Whatsapp">
+                                <img src="/imagens/WhatsApp.png" alt="Icone Whatsapp">
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -82,6 +73,7 @@
             </p>
         </div>
     </footer>
+
 </body>
 
 </html>
